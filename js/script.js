@@ -43,7 +43,7 @@ $(function() {
 			if (target.length) {
 				$('html,body').animate({
 					scrollTop: target.offset().top
-				}, 1500);
+				}, 950);
 				return false;
 			}
 		}
