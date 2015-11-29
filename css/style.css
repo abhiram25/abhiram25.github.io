@@ -8,8 +8,7 @@ h1 {
 }
 
 .intro {
-  background: url('../img/office.jpg');
-  background-size:  cover;
+  background: #00b5ec;
   clip: rect(110px, 0, 0, 0);
   height: 600px;
   padding: 35px 0 20px 0;
