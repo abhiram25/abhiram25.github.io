@@ -8,11 +8,13 @@ h1 {
 }
 
 .intro {
-  background: #00b5ec;
+  background-image: url('../img/office.jpg');
   clip: rect(110px, 0, 0, 0);
   height: 700px;
   padding: 35px 0 20px 0;
   font-family: 'Work Sans', sans-serif;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 
