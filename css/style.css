@@ -7,6 +7,18 @@ h1 {
   color: #fff;
 }
 
+h2 {
+    width: 100%;
+    text-align: center;
+    line-height: 0.1em;
+    margin-bottom: 45px;
+}
+
+h2.gray {
+    border-bottom: 1px solid #999;
+}
+
+
 .intro {
   background-image: url('../img/office.jpg');
   clip: rect(110px, 0, 0, 0);
@@ -16,6 +28,7 @@ h1 {
   background-attachment: fixed;
   background-size: cover;
 }
+
 
 
 #MyName {
@@ -33,8 +46,7 @@ h1 {
     font-weight: 200;
 }
 
-.learn-more-btn,
- {}
+
 
 .learn-more-btn {
     background: transparent;
@@ -42,7 +54,7 @@ h1 {
     border: 3px solid #fff;
     color: #fff;
     border-radius: 3px;
-    margin-top: 70px;
+    margin-top: 125px;
     text-transform: uppercase;
     letter-spacing: 1px;
     display: inline-block;
@@ -234,20 +246,21 @@ Contact
 ========================================================================== */
 
 #contact {
-    background: url('../img/background.jpg') no-repeat center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-attachment: fixed;
+    background-color: #fff;
     padding: 30px 0 70px;
-    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    color: #222;
+    
+}
+
+#contact p {
+  font-size: 16px;
+
 }
 
 #contact h1 {
   margin-bottom: 40px;
-  font-size: 4rem;
-  
+  font-family: 'Work Sans', sans-serif;
+  color:  #222;
 }
 
 
@@ -308,6 +321,29 @@ button {
 section {
     padding: 80px 0;
     max-width: 100%;
+}
+
+#contact-info {
+  padding-top:  40px;
+}
+
+#email {
+  margin-top: 50px;
+}
+
+#contact-me {
+  padding: 25px 150px;
+  border-radius: 50px;
+  box-shadow: none !important;
+  background-color: blue;
+  color: #fff;
+  font-size: 25px;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+
+
+
 }
 
   
