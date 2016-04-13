@@ -1,0 +1,73 @@
+@mixin dimensions($width, $height) {
+	width: $width;
+	height: $height;
+}
+
+.circle-xs {
+	@include dimensions(30px, 30px);
+	background: lightblue;
+	border-radius: 50%;	
+}
+
+
+.circle-sm {
+	@include dimensions(75px, 75px);
+	background: lightblue;
+	border-radius: 50%;	
+}
+
+.circle-md {
+	@include dimensions(100px, 100px);
+	background: lightblue;
+	border-radius: 50%;	
+}
+
+.circle-lg {
+	@include dimensions(175px, 175px);
+	background: lightblue;
+	border-radius: 50%;	
+}
+
+.textcenter {
+	text-align: center;
+}
+
+.textleft {
+	text-align: left;
+}
+
+.textright {
+	text-align: right;
+}
+
+.margin-zero {
+	margin: 0 auto;
+}
+
+.auto {
+	margin: auto;
+}
+
+.inline {
+	li {
+	list-style: none;
+	display:inline;
+	}
+}
+
+.social {
+	li {
+		display: inline;
+		width: 20px;
+  		height: 20px;
+		padding: 15px 20px;
+		margin: 0 auto;
+		background: #222;
+		border-radius: 50%;
+		color: #fff;
+
+		span {
+			text-align: center;
+		}
+	}
+}

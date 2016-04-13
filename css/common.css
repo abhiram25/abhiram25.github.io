@@ -1,0 +1,64 @@
+/*This is where I can store any icons in the center of each circle div */
+
+.circle-xs {
+  width: 30px;
+  height: 30px;
+  background: lightblue;
+  border-radius: 50%; }
+
+.circle-sm {
+  width: 75px;
+  height: 75px;
+  background: lightblue;
+  border-radius: 50%; }
+
+.circle-md {
+  width: 100px;
+  height: 100px;
+  background: lightblue;
+  border-radius: 50%; }
+
+.circle-lg {
+  width: 175px;
+  height: 175px;
+  background: lightblue;
+  border-radius: 50%; }
+
+ /*align text to what you wish */ 
+
+.textcenter {
+  text-align: center; }
+
+.textleft {
+  text-align: left; }
+
+.textright {
+  text-align: right; }
+
+.margin-zero {
+  margin: 0 auto; }
+
+.auto {
+  margin: auto; }
+
+/* I did the inline displays for you for list items, you're welcome */  
+
+.inline li {
+  list-style: none;
+  display: inline; }
+
+/* This is great for you to line up your social icons in a circle */  
+
+.social li {
+  display: inline;
+  width: 20px;
+  height: 20px;
+  padding: 15px 20px;
+  margin: 0 auto;
+  background: #222;
+  border-radius: 50%;
+  color: #fff; }
+  .social li span {
+    text-align: center; }
+
+/*# sourceMappingURL=common.css.map */
